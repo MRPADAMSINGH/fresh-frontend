@@ -1,3 +1,3 @@
 export const apiUrls = {
-    authServiceApi: 'http://localhost:8800/api/auth/'
+    authServiceApi: 'https://fresh-backend-rose.vercel.app/api/auth/'
 }
