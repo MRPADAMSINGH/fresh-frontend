@@ -12,7 +12,7 @@ export class AuthService {
   isLoggedIn$ = new BehaviorSubject<boolean>(false);
 
   registerService(registerObj: any){
-    return this.http.post<any>(`${apiUrls.authServiceApi}register`, registerObj);
+    return this.http.post<any>(`https://fresh-backend-rose.vercel.app/api/auth/register`, registerObj);
   }
 
   loginService(loginObj: any){
