@@ -1,3 +1,3 @@
 export const apiUrls = {
-    authServiceApi: 'https://fresh-backend-theta.vercel.app/api/auth/'
+    authServiceApi: 'http://localhost:8800/api/auth/'
 }
